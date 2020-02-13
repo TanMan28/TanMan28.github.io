@@ -1,0 +1,52 @@
+    body {
+        background-image: repeating-linear-gradient(to right,#C7D7FD,#E3EFFD,#F5FAFA, #E3EFFD, #C7D7FD, #E3EFFD, #F5FAFA);
+        background-color: #E3EFFD;
+    }
+
+    h1 {
+        font-size: 70px;
+        text-align: center;
+        color: #A7B5D4
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 18px
+    }
+
+    #Tanner {
+        color: #A7B5D4
+    }
+
+    #Artist {
+        color: #ADBBDB;
+    }
+
+    .menu {
+        overflow: hidden;
+        background-color: white;
+        padding: 10px 10px 10px 10px;
+        margin: 0px;
+    }
+
+    .menu a {
+        color: #A7B5D4;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 10px 10px 10px;
+        margin: 20px;
+        transition: background-color 1s ease;
+    }
+
+    .menu a:hover {
+        color: white;
+        background-color: #C7D7FD;
+}
+
+    .bar {
+        text-align: center;
+        display: inline-block;
+        text-align: center;
+        margin-left: -4px;
+        margin-right: 0;
+    }

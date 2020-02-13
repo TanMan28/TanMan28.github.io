@@ -1,0 +1,71 @@
+html{
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: lightgray;
+ 
+}
+
+#image{
+    width:500px;
+    display:block;
+}
+
+/*COMPLETE THE CSS BELOW*/
+
+/*Hint: only add one property to .container*/
+.container{
+    display: inline-block;
+    margin-left: -4px;
+    margin-right: 0;
+}
+
+.green{
+    height: 20px;
+    width: 125px;
+    background-color: seagreen
+}
+
+.navy{
+    height: 20px;
+    width: 125px;
+    background-color: navy
+}
+
+.pink{
+    height: 20px;
+    width: 125px;
+    background-color: lightpink;
+}
+
+.orange{   
+    height: 20px;
+    width: 125px;
+    background-color: orangered;
+}
+
+.yellow{
+    height: 22px;
+    width: 125px;
+    background-color: orange;
+}
+
+.red{
+    height: 22px;
+    width: 125px;
+    background-color: darkred;
+}
+
+.range{
+    height: 23px;
+    width: 125px;
+    background-color: darkorange;
+}
+
+.blue{
+    height: 26.3px;
+    width: 125px;
+    background-color: blue;
+}

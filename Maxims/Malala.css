@@ -1,0 +1,56 @@
+body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 2em 2em 4em;
+    font-size: 40px;
+}
+
+p{ 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#scared {
+    animation-name: shrink;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+@keyframes shrink {
+    0%{font-size: 40px}
+    100%{font-size: 30px}
+}
+
+#strong {
+    animation-name: grow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+@keyframes grow {
+    0%{font-size: 40px}
+    100%{font-size: 50px}
+}
+
+#courage {
+    animation-name: groww;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+@keyframes groww {
+    0%{font-size: 40px}
+    100%{font-size: 60px}
+}
+
+#Malala {
+    text-align: right;
+}

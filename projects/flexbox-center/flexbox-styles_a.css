@@ -1,0 +1,83 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.row {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+p {
+    font-size: 2em;
+    color: black;
+    font-family: Arial;
+}
+
+#please {
+    animation-name: expand;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out
+}
+
+@keyframes expand {
+    
+    0%{
+       font-size: 2em; 
+    }
+    100%{
+        font-size: 5em;
+    }
+}
+
+#content {
+    animation-name: colorchange;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes colorchange {
+    0% {
+        background-color: white;
+    }
+    100% {
+        background-color: aquamarine
+    }
+    0% {
+        color: black;
+    }
+    100% {
+        color: red;
+    }
+}
+
+span {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateX(0)
+    }
+    100% {
+        transform: rotateX(90deg)
+    }
+}

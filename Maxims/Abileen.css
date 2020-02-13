@@ -1,0 +1,55 @@
+body {
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 2em 2em 4em;
+}
+
+p{ 
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#kind {
+    animation-name: appear;
+    animation-duration: 3s;
+}
+@keyframes appear {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+#smart {
+    text-align: center;
+    animation-name: appearr;
+    animation-duration: 4s;
+}
+
+@keyframes appearr {
+    0%{opacity: 0}
+    50%{opacity: 0}
+    100%{opacity: 1}
+}
+
+#important {
+    text-align: right;
+    animation-name: appearrr;
+    animation-duration: 6s;
+}
+
+@keyframes appearrr {
+    0%{opacity: 0}
+    66%{opacity: 0}
+    100%{opacity: 1}
+}
+    
+
+#Abileen {
+    font-size: 50px;
+    text-align: right;
+}

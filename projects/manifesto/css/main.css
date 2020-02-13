@@ -1,0 +1,76 @@
+#lineOne {
+    color: purple;
+}
+
+#lineTwo {
+    font-size: 40px;
+}
+
+#lineThree {
+    font-family: 'Gelasio', serif;
+    font-size: 30px;
+    background-color: aqua;
+}
+
+#linefour {
+    border: 5px solid red; 
+    width: 270px;
+    padding: 25px;
+    margin: 35px;
+    font-size: 30px;
+    text-align: center
+}
+
+#linefive {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 5px 10px #888888;
+}
+
+#linesix {
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+#lineseven {
+    font-kerning: none;
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+span {
+    font-size: 80px;
+}
+
+#lineeight {
+    letter-spacing: 5px;
+}
+
+#linenine {
+    line-height: 6;
+    font-size: 30px;
+}
+
+#lineten {opacity: 0.1;
+    outline-color: aquamarine;
+    outline-width: thin;
+    font-size: 30px;
+}
+
+#lineeleven {
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+
+#linetwelve {
+    word-spacing: 50px;
+}
+
+#linethirteen {
+    
+}
+
+#linefourteen {
+    
+}
