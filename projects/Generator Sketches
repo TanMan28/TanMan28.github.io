@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Generator Sketches</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="animation-styles.css">
+</head>
+
+<body>
+    <h1>Generator Sketches</h1>
+    
+    <p>This generator is going to help you to create some goofy characters! I am currently working on expanding control of customizing the shapes of different features on each character. Soon you'll be able to create your own character!</p>
+    
+    <h2>Here are some examples</h2>
+    
+    <img src="../assets/images/Screen%20Shot%202020-04-09%20at%2010.22.05%20AM.png">
+    <img src="../assets/images/Screen%20Shot%202020-04-09%20at%2010.22.42%20AM.png">
+    <img src="../assets/images/Screen%20Shot%202020-04-09%20at%2010.23.22%20AM.png">
+    <img src="../assets/images/Screen%20Shot%202020-04-09%20at%2010.23.03%20AM.png">
+    
+    </body>
