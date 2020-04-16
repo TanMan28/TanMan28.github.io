@@ -1,6 +1,8 @@
     body {
         background-image: repeating-linear-gradient(to right,#C7D7FD,#E3EFFD,#F5FAFA, #E3EFFD, #C7D7FD, #E3EFFD, #F5FAFA);
         background-color: #E3EFFD;
+        background-color: #E3EFFD;
+        margin: 20px;
     }
 
     h1 {
@@ -14,6 +16,36 @@
         font-size: 18px
     }
 
+    h3 {
+        margin: 40px;
+        margin-bottom: 20px;
+        color: #46669D;
+    }
+
+    h4 {
+        margin-left: 60px;
+        margin-bottom: 0;
+        color: white;
+        font-size: 25px;
+    }
+
+    h5 {
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #599CFF;
+    transition: color 1s ease;
+}
+
+a:hover {
+    color: white;
+}
+
     #Tanner {
         color: #A7B5D4
     }
@@ -23,10 +55,12 @@
     }
 
     .menu {
-        overflow: hidden;
-        background-color: white;
+        color: #A7B5D4;
+        font-family: sans-serif;
+        text-decoration: none;
         padding: 10px 10px 10px 10px;
-        margin: 0px;
+        margin: 20px;
+        transition: background-color 1s ease;
     }
 
     .menu a {
@@ -43,6 +77,12 @@
         background-color: #C7D7FD;
 }
 
+    img {
+        width: 600px;
+        margin: 60px;
+        display: block;
+    }
+
     .bar {
         text-align: center;
         display: inline-block;
@@ -50,3 +90,68 @@
         margin-left: -4px;
         margin-right: 0;
     }
+
+    #pics {
+        display: inline-block;
+    }
+
+    p {
+        margin-left: 40px;
+        margin-bottom: 0px;
+        color: #4A6EB0;
+    }
+
+    #picture {
+    float: inherit;
+}
+
+div1 {
+    float: inherit;
+}
+div2 {
+    display: inline-block;
+}
+div3 {
+    display: inline-block;
+}
+div4 {
+    display: inline-block;
+}
+div5 {
+    display: block;
+}
+div6 {
+    
+}
+
+div9 {
+    vertical-align: 50%;
+    margin: 20px;
+    text-align: center;
+}
+
+video {
+    float: right;
+    margin: 20px;
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: opacity 1s;
+    text-decoration: none;
+}
+
+video:hover{
+    opacity: 1;
+}
+
+#Oprah {
+    font-size: 40px;
+}
+#junior {
+    font-size: 20px;
+}
+#concentrate {
+    font-size: 20px;
+}
+#work {
+    font-size: 20px;
+}
