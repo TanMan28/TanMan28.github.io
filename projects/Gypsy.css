@@ -1,0 +1,92 @@
+body {
+    background: #F5C796;
+    line-height: 1.5;
+    margin: auto;
+    max-width: 900px;
+    padding: 2em 2em 4em;
+    max-height:inherit;
+    min-height:inherit;
+    min-width:inherit;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/555d7b87e4b09797273ede15/1458948381035-QO8HOII9KY5XDIHVXNAV/ke17ZwdGBToddI8pDm48kDx41QSR0WP7CKy3zNb7z80UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2du4Ta-2fSUdnAI1Dh34EyccATgMQKDfAFp-sFzdtz8FwCjLISwBs8eEdxAxTptZAUg/elena-wilken-walk-in-the-countryside-surface-pattern-design8.png")
+}
+
+h1{ 
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:maroon;
+    font-size: 100px;
+    line-height:64px;
+    text-align:center;
+    font-weight:lighter;
+    padding:-5px -1px -5px;
+    letter-spacing:-5px;
+    background-color:#B82514;
+    border:0px;
+    border-radius:0px;
+    z-index: auto;
+    cursor:grab;
+    animation-name: appear;
+    animation-duration: 3s;
+}
+@keyframes appear {
+    0%{opacity: 0}
+    75%{opacity: 1}
+}
+
+p {
+    cursor:zoom-in;
+    font-family:'Chango';
+    font-size:24px;
+    color:#730A00;
+    line-height:;
+    margin:100px;
+    text-align:left;
+    letter-spacing:1px;
+    border:0px;
+    z-index: auto;
+    animation-name: appear;
+    animation-duration: 3s;
+}
+@keyframes appear {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+#Gypsy {
+    letter-spacing:-25px;
+    font-weight: bold;
+    background-color:#730A00;
+    border:0px;
+    color:#B82514;
+    border-radius:0px;
+    z-index: auto;
+    animation-name: appear;
+    animation-duration: 3s;
+}
+@keyframes appear {
+    0%{opacity: 0}
+    50%{opacity: 1}
+    animation-iteration-count:5s;
+}
+
+--unvisited-link
+.a:link {
+  color: green;
+}
+
+--visited-link
+.a:visited {
+  color: green;
+}
+
+--mouse-over-link
+.a:hover {
+  color: red;
+}
+
+--selected-link
+.a:active {
+  color: yellow;
+} 
+
+
+::selection {}
