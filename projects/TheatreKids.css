@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(https://media.istockphoto.com/photos/theatre-curtains-background-picture-id173588123?k=6&m=173588123&s=170667a&w=0&h=6pt9iLYxzfw3cdJ0m3-1hZFelHHV_wBOm0_qD715MUU=);
+    background-size: 100%;
+}
+
+header {
+    background-image: url(https://i.pinimg.com/736x/ec/87/06/ec870611f1ab5ab16ca3d3e21db00c4d.jpg);
+    padding: 40px;
+}
+
+section {
+    color: white;
+    background-color: black;
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    background-color: black;
+    opacity: 100%;
+    background-image: url(https://i.pinimg.com/originals/fa/78/c8/fa78c86e4468b105d6528e0ff8cf7f05.jpg);
+    opacity: 90%;
+    background-position: bottom;
+    background-size: 100% 220%;
+    padding: 50px 50px;
+}
+
+div {
+    width: 300px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    box-shadow: 5px 5px 10px red, -5px -5px 10px mediumblue;
+    background-color: yellow;
+
+    margin: 10px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+li {
+    margin: 0px;
+    height: 100px;
+    width: 230px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Goblin One', cursive;
+    height: 20px;
+    border: 250px;
+    border-color: black;
+}
+li:hover {
+    color: white;
+}
+
+nav {
+    display: inline-block;
+}
+
+img {
+    width: 250px;
+}
+
+h1 {
+    display: inline;
+    padding-right: 120px;
+    font-family: 'limelight', cursive;
+    font-size: 180px;
+    color: ghostwhite;
+    text-shadow: 5px 5px 10px red, -5px -5px 10px mediumblue;
+}
+
+h2 {
+    font-family: 'Goblin One', cursive;
+    text-shadow: 3px 3px 5px red, -4px -4px 5px mediumblue;
+}
+
+h3 {
+    font-family: 'Montserrat', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+h4 {
+    font-family: 'Montserrat', cursive;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+h5 {
+    font-family: 'Montserrat', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 15px;
+    color: yellow;
+}
+
+#byCaitlinHuston {
+    color: yellow;
+}
