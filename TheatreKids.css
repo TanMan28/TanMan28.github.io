@@ -4,12 +4,14 @@ body {
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
     background-image: url(https://media.istockphoto.com/photos/theatre-curtains-background-picture-id173588123?k=6&m=173588123&s=170667a&w=0&h=6pt9iLYxzfw3cdJ0m3-1hZFelHHV_wBOm0_qD715MUU=);
-    background-size: 100%;
+    background-size: 100vw 100%;
+    display: block;
 }
 
 header {
     background-image: url(https://i.pinimg.com/736x/ec/87/06/ec870611f1ab5ab16ca3d3e21db00c4d.jpg);
     padding: 40px;
+    position: static;
 }
 
 section {
@@ -21,7 +23,6 @@ section {
     margin-bottom: 0px;
     margin-top: 0px;
     display: flex;
-    flex-direction: row;
 }
 
 footer {
@@ -51,22 +52,23 @@ ul {
 }
 
 li {
-    margin: 0px;
+    align-content: center;
+    margin-left: 150px;
     height: 100px;
     width: 230px;
     padding: 15px;
     font-size: 20px;
     font-family: 'Goblin One', cursive;
     height: 20px;
-    border: 250px;
     border-color: black;
+    display: inline-block;
 }
 li:hover {
     color: white;
 }
 
 nav {
-    display: inline-block;
+    display: block;
 }
 
 img {
@@ -74,7 +76,7 @@ img {
 }
 
 h1 {
-    display: inline;
+    margin: 0px;
     padding-right: 120px;
     font-family: 'limelight', cursive;
     font-size: 180px;
@@ -85,6 +87,7 @@ h1 {
 h2 {
     font-family: 'Goblin One', cursive;
     text-shadow: 3px 3px 5px red, -4px -4px 5px mediumblue;
+    margin: 10px;
 }
 
 h3 {
@@ -93,6 +96,7 @@ h3 {
     font-size: 20px;
     margin-right: 10px;
     margin-top: 15px;
+    color: white;
 }
 
 h4 {
@@ -112,4 +116,45 @@ h5 {
 
 #byCaitlinHuston {
     color: yellow;
+}
+
+a {
+    text-decoration: none;
+    border: black;
+    color: white;
+}
+
+a:hover {
+    text-shadow: 1px 1px 3px red, -1px -1px 3px mediumblue;
+}
+
+a:active {
+    text-shadow: 2px 2px 3px grey, -2px -2px 3px black;
+}
+
+a:visited {
+    text-shadow: 2px 2px 1px grey, -2px -2px 1px black;
+}
+
+.chatbox {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    padding: 10px 4px;
+}
+
+.column {
+  flex: 25%;
+    max-width: 33.3%;
+  padding: 10px 4px;
+    padding-right: 300px;
+    padding-left: 50px;
+}
+
+.column img {
+  margin-top: 8px;
+   width: 100%;
+  vertical-align: middle;
 }
